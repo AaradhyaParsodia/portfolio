@@ -1,3 +1,4 @@
+import landing from "../assets/landing.svg"
 export function Landing() {
     // return <div className="main-container">
     return <div>
@@ -26,7 +27,7 @@ export function Landing() {
             <div className="landing-second-part">
                 <img
                     className="landing-image"
-                    src="./src/assets/landing.svg"
+                    src={landing}
                     alt="landing photo"
                     style={{ maxHeight: "450px" }}
                 />

@@ -1,7 +1,7 @@
 import { PointRight } from "./PointRight"
 export function AboutCard() {
     return <div className="about-card">
-        <h1>Know Who I'M</h1>
+        <h1>Know Who I&apos;M</h1>
         <p style={{ textAlign: "justify" }}>
             Hi Everyone, This is <span className="text-highlight">Aaradhya Parsodia </span>
             from <span className="text-highlight"> Bhopal, M.P, India.</span>

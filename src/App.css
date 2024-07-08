@@ -36,13 +36,9 @@
 
 .wave {
     animation-name: wave-animation;
-    /* Refers to the name of your @keyframes element below */
     animation-duration: 2.1s;
-    /* Change to speed up or slow down */
     animation-iteration-count: infinite;
-    /* Never stop waving :) */
     transform-origin: 70% 70%;
-    /* Pivot around the bottom-left palm */
     display: inline-block;
 }
 
@@ -55,7 +51,6 @@
         transform: rotate(14deg);
     }
 
-    /* The following five values can be played with to make the waving more or less extreme */
     20% {
         transform: rotate(-8deg);
     }
@@ -76,7 +71,6 @@
         transform: rotate(0deg);
     }
 
-    /* Reset for the last half to pause */
     100% {
         transform: rotate(0deg);
     }
@@ -160,7 +154,7 @@
     }
 }
 
-/* Add this media query to apply styles for tablet sizes */
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .landing-splitter {
         grid-template-columns: 1fr;

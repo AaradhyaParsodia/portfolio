@@ -1,4 +1,3 @@
-import { Navbar } from "../components/Navbar"
 export function Landing() {
     // return <div className="main-container">
     return <div>
@@ -11,7 +10,7 @@ export function Landing() {
                         👋🏻
                     </span>
                 </div>
-                <div className="name-section">I'M <span className="name">AARADHYA PARSODIA</span></div>
+                <div className="name-section">I&apos;M <span className="name">AARADHYA PARSODIA</span></div>
                 <div className="short-desc">
                     <p style={{ textAlign: "justify" }}>
                         A Software Developer who usually work on <span className="text-highlight">JavaScript(NodeJs), JavaSE, C++, etc. </span>

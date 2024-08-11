@@ -6,7 +6,7 @@ export function AboutCard() {
             Hi Everyone, This is <span className="text-highlight">Aaradhya Parsodia </span>
             from <span className="text-highlight"> Bhopal, M.P, India.</span>
             <br />
-            I am currently working as a <span className="text-highlight">Backend Developer Intern</span> at Mentorsity.
+            I am currently actively working as a <span className="text-highlight">Software Engineer Freelancer</span> at Mentorsity.
             <br />
             A recent B.Tech. Graduate in Computer Science and Engineering from LNCT, Bhopal.
             <br />
